@@ -4,8 +4,6 @@ public class Constants {
 
     public static final String AUTOMATION_EXERCISE_URL = "http://automationexercise.com";
 
-    public static final String CHROME_BROWSER = "chrome";
-    public static final String FIREFOX_BROWSER = "firefox";
 
     public static final String ACTUAL_AUTOMATION_EXERCISE_HOMEPAGE_URL = "https://automationexercise.com/";
     public static final String ACTUAL_CONTACT_US_PAGE_URL = "https://automationexercise.com/contact_us";
@@ -24,6 +22,10 @@ public class Constants {
     public static final String SUBSCRIBE_EMAIL = "kenobi@jeditemple.com";
 
     public static final String SEARCH_PRODUCT_INPUT = "Blue Top";
+
+    public static final String FIRST_PRODUCT_NAME = "Blue Top";
+    public static final String FIRST_PRODUCT_CATEGORY = "Category: Women > Tops";
+    public static final String FIRST_PRODUCT_PRICE = "Rs. 500";
 
     public static final String ACTUAL_SEARCHED_PRODUCTS_TITLE = "SEARCHED PRODUCTS";
 

@@ -14,13 +14,6 @@ public class TestBase {
 
     public WebDriver driver;
 
-//    public void refreshPage(){
-//
-//        if (driver.getCurrentUrl().contains("#google_vignette")){
-//            driver.navigate().refresh();
-//        }
-//
-//    }
 
 
     /**

@@ -4,8 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class ProductsPage extends BasePage {
 
@@ -84,19 +82,6 @@ public class ProductsPage extends BasePage {
 
         return blueTopPriceElement.getText();
 
-    }
-
-    public String getFirstProductAvailability(){
-
-        return blueTopAvailabilityElement.getText();
-
-    }
-
-    public String getFirstProductCondition(){
-
-        String text = blueTopConditionElement.getText();
-        String newText = text.split("Condition:")[0].trim();
-        return newText;
     }
 
 

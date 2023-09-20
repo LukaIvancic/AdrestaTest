@@ -9,8 +9,6 @@ public class TestCasesPage extends BasePage{
         super(driver);
     }
 
-//    @FindBy(css = "h2.title.text-center:contains('Test Cases')")
-//    private WebElement testCasesHeader;
 
     @FindBy(css = "h2")
     private WebElement h2Element;

@@ -36,19 +36,15 @@ public class TestProductsPage extends TestBase {
             productsPage.clickOnFirstProduct();
         }
 
-        Assert.assertEquals(productsPage.getFirstProductName(), "Blue Top");
-        Assert.assertEquals(productsPage.getFirstProductCategory(), "Category: Women > Tops");
-        Assert.assertEquals(productsPage.getFirstProductPrice(), "Rs. 500");
-
-
-
-
+        Assert.assertEquals(productsPage.getFirstProductName(), Constants.FIRST_PRODUCT_NAME);
+        Assert.assertEquals(productsPage.getFirstProductCategory(), Constants.FIRST_PRODUCT_CATEGORY);
+        Assert.assertEquals(productsPage.getFirstProductPrice(), Constants.FIRST_PRODUCT_PRICE);
 
 
     }
 
     @Test
-    public void testSearchProduct() throws InterruptedException {
+    public void testSearchProduct(){
 
         AutomationExerciseHomepage automationExerciseHomepage = new AutomationExerciseHomepage(driver);
 
@@ -60,8 +56,6 @@ public class TestProductsPage extends TestBase {
             driver.navigate().refresh();
             automationExerciseHomepage.clickOnProductsButton();
         }
-
-//        Assert.assertEquals(driver.getCurrentUrl(), Constants.ACTUAL_PRODUCTS_PAGE_URL);
 
         ProductsPage productsPage = new ProductsPage(driver);
 
