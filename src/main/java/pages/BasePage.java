@@ -13,11 +13,7 @@ public abstract class BasePage {
         PageFactory.initElements(driver, this);
     }
 
-    /**
-     * Method gets URL of the current page
-     *
-     * @author Luka.Ivancic
-     * */
+
     public String getCurrentURL(){
         return driver.getCurrentUrl();
     }

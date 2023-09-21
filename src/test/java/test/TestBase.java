@@ -16,12 +16,6 @@ public class TestBase {
 
 
 
-    /**
-     * Method starts the application and goes to Humanity app
-     *
-     * @author Luka.Ivancic
-     *
-     * */
     @BeforeMethod
     public void setUp(){
 
@@ -29,12 +23,7 @@ public class TestBase {
 
     }
 
-    /**
-     * Method exits the browser
-     *
-     * @author Luka.Ivancic
-     *
-     * */
+
     @AfterMethod
     public void tearDown(){
 
